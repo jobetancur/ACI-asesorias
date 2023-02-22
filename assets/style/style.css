@@ -320,18 +320,57 @@ body main {
 .fifth__section button:hover {
     transform: scale(1.1);
 }
+.sixth__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0px;
+    max-width: 1366px;
+}
+.sixth__section h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--medium_blue);
+    text-align: center;
+}
+.sixth__section__container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.sixth__section__container img {
+    width: 350px;
+}
+.sixth__section__container p {
+    text-align: center;
+    width: 350px;
+    color: #434343;
+    font-weight: bold;
+    font-size: 18px;
+}
 .footer {
     height: 400px;
     background-color: var(--medium_blue);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .first__footer {
     width: 50%;
-    height: 400px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .first__footer img {
     width: 400px;
+}
+.second__footer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.second__footer a {
+    color: var(--ultra-light);
+    font-size: 36px;
+    text-decoration: none;
 }
