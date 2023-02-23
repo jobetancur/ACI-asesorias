@@ -228,6 +228,7 @@ body main {
     justify-content: center;
     text-align: center;
     margin-top: 40px;
+    max-width: 1366px;
 }
 .fourt__section hr {
     width: 95%;
@@ -373,4 +374,127 @@ body main {
     color: var(--ultra-light);
     font-size: 36px;
     text-decoration: none;
+}
+.plan__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+}
+.plan__section h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--medium_blue);
+    text-align: center;
+    max-width: 900px;
+}
+.plan__section__elements {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.plan__section__first__element {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan__section__first__element div {
+    background-color: #3C84AB;
+    color: var(--ultra-light);
+    text-align: center;
+    border-radius: 10px;
+}
+.plan__section__first__element div p {
+    padding: 0 20px;
+    font-size: 18px;
+}
+.plan__section__first__element ul {
+    line-height: 30px;
+    margin-top: 30px;
+}
+.plan__section__first__element ul li {
+    font-size: 18px;
+}
+.plan__section__second__element {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.plan__section__second__element div {
+    width: 250px;
+    background-color: #3C84AB;
+    color: var(--ultra-light);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan__section__second__element div p {
+    padding: 0 10px;
+    font-size: 18px;
+}
+.section__calculator {
+    margin: 40px 0px;
+}
+.section__calculator h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--medium_blue);
+    text-align: center;
+}
+.calculator__elements {
+    display: flex;
+    gap: 40px;
+}
+.result__operation {
+    display: flex;
+    gap: 60px;
+    margin-left: 40px;
+}
+.mensual h4 {
+    font-size: 18px;
+}
+.mensual p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #434343;
+}
+.quincenal h4 {
+    font-size: 18px;
+}
+.quincenal p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #434343;
+}
+#simulator {
+    border: none;
+    cursor: pointer;
+}
+.content__select select {
+    display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 18px;
+	color: #999;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+.content__select h4 {
+    font-size: 18px;
 }
